@@ -1,0 +1,59 @@
+h1,h2,h3 {
+    margin: 30px 0;
+}
+.admin_auth h3 {
+    text-align: center;
+}
+.wrap-comments .row {
+    margin: 20px 0;
+    border: 1px solid #d2cfcf;
+    padding: 15px;
+    line-height: 1;
+    font-size: 15px;
+}
+.wrap-comments .row>div {
+    margin-bottom: 20px;
+}
+#formComment button[type=submit], #CommentEdit input[type=submit] {
+    margin: 30px 0;
+}
+#formComment, #CommentEdit {
+    margin-bottom: 50px;
+}
+.user_name {
+    margin-bottom: 10px;
+}
+.logout {
+    text-align: right;
+}
+
+.logout a {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px 20px;
+    background: #ccc;
+    color: red;
+    transition: 0.5s;
+}
+
+.logout a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.wrapFormComments {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #cac8c8;
+    padding: 20px;
+}
+.editCommentForm h3 {
+    text-align: center;
+}
+@media(max-width:600px) {
+    h1, h2, h3 {
+        font-size: 25px;
+    }
+    .wrapFormComments {
+        width: 100%;
+    }
+}
